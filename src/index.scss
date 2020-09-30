@@ -22,6 +22,10 @@ body {
   border-radius: 8px;
   box-shadow: 4px 4px 1rem;
 }
+.pictures:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
 h1 {
   text-align: justify;
   width: 25rem;
@@ -33,6 +37,12 @@ p {
   width: 25rem;
   display: flex;
   font-size: 12px;
+}
+p:hover {
+  transform: scale(2);
+  transition: all 0.2s ease-in-out;
+  border: 2px solid white;
+  color: red;
 }
 article {
   gap: 1rem;
