@@ -39,10 +39,12 @@ p {
   font-size: 12px;
 }
 p:hover {
-  transform: scale(2);
+  transform: scale(1.5);
   transition: all 0.2s ease-in-out;
   border: 2px solid white;
   color: red;
+  display: flex;
+  justify-content: center;
 }
 article {
   gap: 1rem;
