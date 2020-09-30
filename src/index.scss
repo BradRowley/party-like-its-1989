@@ -10,3 +10,46 @@ body {
   margin: 0;
   min-height: 100%;
 }
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  gap: 1rem;
+  width: 25rem;
+  height: 25rem;
+  display: block;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 4px 4px 1rem;
+}
+h1 {
+  text-align: justify;
+  width: 25rem;
+  display: flex;
+}
+p {
+  gap: 1rem;
+  text-align: justify;
+  width: 25rem;
+  display: flex;
+  font-size: 12px;
+}
+article {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  margin: auto;
+  max-width: 405px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 1rem;
+  color: white;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+}
+header {
+  display: flex;
+  text-align: center;
+}
